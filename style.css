@@ -1,0 +1,158 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: black;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 15px;
+}
+span{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  color: red;
+}
+.header-container {
+  display: flex;
+  margin: 0px auto;
+  gap: 10px;
+  margin-top: 150px;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  height: 250px;
+  padding: 20px;
+  max-width: 290px;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+.header p {
+  color: green;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Segoe UI";
+}
+.header-text {
+  position: absolute;
+  top: 230px;
+  left: 620px;
+}
+.header #kun {
+  margin-top: -15px;
+}
+.header #soat {
+  margin-top: -15px;
+}
+.header input {
+  padding-left: 10px;
+  margin-left: 10px;
+  border: 2px solid green;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  color: green;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.header input:hover {
+  border: 2px solid rgb(111, 255, 111);
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+.header input::-moz-placeholder {
+  color: green;
+}
+.header input::placeholder {
+  color: green;
+}
+.header button {
+  border: 2px solid transparent;
+  text-align: center;
+  color: white;
+  background-color: green;
+  font-size: 16px;
+  font-weight: 600;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.header button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(0, 255, 0);
+}
+.header label {
+  display: none;
+}
+@media (max-width: 500px) {
+  .header-text {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+  }
+  .header-container {
+    display: flex;
+    max-width: 240px;
+    margin: 0px auto;
+    gap: 5px;
+    margin-top: 150px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    padding: 20px;
+    max-width: 280px;
+    align-items: flex-start;
+    border-radius: 10px;
+  }
+  .header input {
+    padding-left: 10px;
+    border: 2px solid green;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    color: green;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .header input:hover {
+    border: 2px solid rgb(111, 255, 111);
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: green;
+  }
+  .header input::-moz-placeholder {
+    color: green;
+  }
+  .header input::placeholder {
+    color: green;
+  }
+  .header button {
+    border: 2px solid transparent;
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    font-weight: 600;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .header button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 255, 0);
+  }
+  .header label {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
